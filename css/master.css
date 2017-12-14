@@ -55,7 +55,11 @@
     background-color: rgb(76, 76, 76);
     color: rgba(255, 255, 255, .5);
 }
-
+#about p {
+    color: black;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
 #about img {
     max-height: 510px;
 

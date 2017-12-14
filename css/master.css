@@ -81,41 +81,25 @@
     background-color: white;
     border-radius: 20px;
 }
-#tryisotope {
-    height: 100vh;
-    background-color: rgb(76, 76, 76);
-}
 
-#tryisotope .box {
-    
+
+.iso-nav {
+    text-align: center;
 }
-#tryisotope .red {
-    background-color: red;
+.iso-nav ul  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #5274a9;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }
-#tryisotope .green {
-    background-color: green;
-}
-#tryisotope .yellow {
-    background-color: yellow;
-}
-#tryisotope .small {
-    width: 100px;
-    height: 100px;
-}
-#tryisotope .medium {
-    width: 150px;
-    height: 150px;
-}
-#tryisotope .large {
-    width: 200px;
-    height: 200px;
-}
-#tryisotope .circle {
-    border-radius: 50%;
-}
-#tryisotope .elipse {
-    border-radius: 25%;
-}
-#tryisotope .odd {
-    border-top-left-radius: 50px;
+.iso-nav ul  li:hover {
+    background: #5274a9;
+    color: #fff;
 }

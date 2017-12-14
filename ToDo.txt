@@ -1,0 +1,3 @@
+Fix the isotope filtering
+center the content on the hero page
+modify What I Do  section --Services

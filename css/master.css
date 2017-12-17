@@ -1,4 +1,7 @@
-
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
 .hero-unit {
     background-image: url("https://i.imgur.com/BYvjXer.jpg");
     background-size: cover;
@@ -102,4 +105,8 @@
 .iso-nav ul  li:hover {
     background: #5274a9;
     color: #fff;
+}
+.fa {
+    padding: 5px;
+    font-size: 20px;
 }
